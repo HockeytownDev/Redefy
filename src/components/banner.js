@@ -13,8 +13,8 @@ export default class Banner extends Component {
         />
         <div className="container">
           <div className="banner-details">
-            <span>Hello...</span>
-            <h1>I'm {data.designation}.</h1>
+            {/* <span>Welcome</span> */}
+            <h1>Stephanie Hynes</h1>
             <ul className="sub-data">
               {data.bannerList.map((item, index) => {
                 return <li key={index}>{item}</li>;
@@ -24,23 +24,23 @@ export default class Banner extends Component {
               <li>
                 <a
                   className="fab fa-facebook-f"
-                  href={data.facebook}
+                  href={'https://www.facebook.com/stephanie.hynes.904'}
                   target="_blank"
                   rel="noopener noreferrer"
                 ></a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="fab fa-twitter"
                   href={data.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
                 ></a>
-              </li>
+              </li> */}
               <li>
                 <a
                   className="fab fa-instagram"
-                  href={data.instagram}
+                  href={'https://www.instagram.com/stephanie_hynes_realtor_/'}
                   target="_blank"
                   rel="noopener noreferrer"
                 ></a>
@@ -48,15 +48,7 @@ export default class Banner extends Component {
               <li>
                 <a
                   className="fab fa-linkedin-in"
-                  href={data.linkdin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-              </li>
-              <li>
-                <a
-                  className="fab fa-github"
-                  href={data.github}
+                  href={'https://www.linkedin.com/in/stephanie-hynes-825304b4/'}
                   target="_blank"
                   rel="noopener noreferrer"
                 ></a>
